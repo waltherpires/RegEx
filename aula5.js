@@ -1,7 +1,7 @@
 const { alfabeto } = require("./base");
 
 // conjunto [] -> [abc]
-// ^ -> Negar
+// [^] -> Negar
 //[0-9] - Range
 //[] - retorna caractere por caractere
 //[]* - retorna Strings inteiras
@@ -18,5 +18,6 @@ console.log(alfabeto.match(/[A-Z]+/g));
 console.log(alfabeto.match(/[a-zA-Z0-9]+/g));
 console.log(alfabeto.match(/\w+/g)); //Faz o mesmo que a linha de cima
 console.log(alfabeto.match(/\W+/g)); //Oposto do de cima
+console.log(alfabeto.match(/\s+/g));
 
 //console.log(alfabeto.match(/[\u00A0-\u00BA]+/g));
