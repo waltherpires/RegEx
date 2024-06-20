@@ -33,6 +33,13 @@ Os Ips são:
   255.255.255.255
 `;
 
+const cpfs2 = `
+254.224.877-45
+215.978.456-12
+047.258.369-96
+963.987.32a.00
+`;
+
 const cpfs = `
 Os CPFs são:
   254.224.877-45 215.978.456-12 047.258.369-96
@@ -46,4 +53,4 @@ const alfabeto =
 
 const html = "<p>Olá mundo</p> <p>Olá de novo</p>";
 
-module.exports = { texto, arquivos, html, alfabeto, cpfs, ips };
+module.exports = { texto, arquivos, html, alfabeto, cpfs, cpfs2, ips };
